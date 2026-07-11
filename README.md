@@ -2,7 +2,8 @@
 
 Godville Dungeon Probability Extension is an extension that allows the user to generate a probability map detailing how likely a purely AFK dungeon exploration is to reach any given non-wall room. Only available for Dungeon Forge
 
-[imagens a demonstrar extensão aqui]
+<img width="440" height="666" alt="image" src="https://github.com/user-attachments/assets/41b61da5-3a00-4f30-9d24-5d43f215a64f" />
+<img width="443" height="667" alt="image" src="https://github.com/user-attachments/assets/bd16f517-3bf3-4f44-b9d9-3ef4fecb11c6" />
 
 ## Installation
 
