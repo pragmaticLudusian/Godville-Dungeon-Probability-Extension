@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         Godville Dungeon Map Probability
+// @namespace    https://godvillegame.com/superhero
+// @version      v1.0.1
+// @description  Uses Monte Carlo to predict the probability of heroes stepping on a given empty space
+// @author       Denis O First
+// @match        https://godvillegame.com/superhero
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=godvillegame.com
+// @updateURL    https://raw.githubusercontent.com/dinisafonsopinto/Godville-Dungeon-Probability-Extension/main/content.user.js
+// @downloadURL  https://raw.githubusercontent.com/dinisafonsopinto/Godville-Dungeon-Probability-Extension/main/content.user.js
+// @grant        none
+// ==/UserScript==
+
 /**
  * Updates a dungeon grid with the probability of each empty space being stepped on.
  * @param {Array<Array<String>>} grid - 2D array with 'Wall', 'Door', 'Treasure', 'Empty'
