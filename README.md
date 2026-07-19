@@ -7,9 +7,7 @@ Godville Dungeon Probability Extension is an extension that allows the user to g
 
 ## Installation
 
-You can use [Tampermonkey](https://www.tampermonkey.net) to run the userscript located [here](https://raw.githubusercontent.com/dinisafonsopinto/Godville-Dungeon-Probability-Extension/refs/heads/main/tampermonkey.fetcher.js).
-
-After installing Tampermonkey, click on the extension from your extension list and click "Create a new script...". Afterwards, import the [tampermonkey fetcher](https://raw.githubusercontent.com/dinisafonsopinto/Godville-Dungeon-Probability-Extension/refs/heads/main/tampermonkey.fetcher.js) to the new file and save it.
+You can use [Tampermonkey](https://www.tampermonkey.net) to run the userscript. If you have Tampermonkey installed, click [here](https://raw.githubusercontent.com/dinisafonsopinto/Godville-Dungeon-Probability-Extension/refs/heads/main/content.user.js).
 
 ## Usage
 
