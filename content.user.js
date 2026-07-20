@@ -197,8 +197,10 @@ function extractMapFromHTML() {
             if (innerElement) {
                 // We use the title attribute to identify the specific cell types
                 const title = (innerElement.getAttribute('title') || '').toLowerCase();
+                // But content will be used to detect walls where title wouldn't work with putting a hole in a wall
+                const content = innerElement.textContent;
 
-                if (title.includes('wall')) {
+                if (content === '#') {
                     cellType = 'Wall';
                 } else if (title.includes('exit')) {
                     // "exit from the dungeon" becomes our 'Door'
