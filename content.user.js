@@ -74,8 +74,8 @@ function calculateSteppingProbabilities(grid, iterations = 10000, maxSteps = 100
                 visitedThisRun[r][c] = true;
             }
 
-            // Stop if they reached the Door
-            if (steps > 0 && r === startR && c === startC) {
+            // Stop if they reached the Door after making 20 steps
+            if (steps > 20 && r === startR && c === startC) {
                 visitedThisRun[r][c] = true;
                 break;
             }
